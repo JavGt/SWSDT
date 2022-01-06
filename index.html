@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Manifest para la pwa -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-ico" href="./build/img/favicon/cirkuli-2.ico" />
+     <!-- css -->
+    <link rel="stylesheet" href="build/css/app.min.css">
+
+    <title>El Sonido del Tiempo</title>
+</head>
+<body>
+     <div class="inicio">
+          <div class="conta">
+               <div id="dato" class="inicio_texto">El Sonido del Tiempo</div>
+          </div>
+
+          <div class="toggle-btn">
+               <span class="one"></span>
+               <span class="two"></span>
+          </div>
+
+          <div class="menu">
+               <div class="data">
+                    <ul>
+                         <li>Menu</li>
+                         <li><a href="./leyenda/leyenda.html">LEYENDAS</a></li>
+                         <li><a href="#">WIKI</a></li>
+                         <li><a href="#">NOSOTROS</a></li>
+                    </ul>
+               </div>
+          </div> 
+     </div>
+    
+     <audio>
+          <source src="./sounds/mixkit-little-birds-singing-in-the-trees-17.mp3"></source>
+     </audio> 
+
+     <!-- Librerías -->
+     <script src="./build/js/librerias/jquery-3.3.1.js"></script>
+     <script src="./build/js/librerias//TweenMax.min.js"></script>
+     <script src="./build/js/librerias/baffle.js"></script>
+
+     <!-- Archivos js -->
+     <script src="./build/js/inicio.js" type="module"></script>
+
+     <!-- PWA -->
+     <script src="./build/js/pwa/init.js"></script>
+</body>
+</html>

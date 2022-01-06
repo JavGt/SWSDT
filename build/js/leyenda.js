@@ -1,0 +1,2 @@
+import{text}from"./animaciones/baffle.js";import{typedAnimacion}from"./animaciones/typed.js";function iniciarLeyenda(){typedAnimacion(typed1,typed2),text.start(),text.reveal(4e3),gsap.timeline({repeat:3}).from("#camaxtli",{duration:3,y:-200,scale:0,stagger:.5})}function StReveal(){Reveal.initialize({slideNumber:"c/t"})}document.addEventListener("DOMContentLoaded",(()=>{iniciarLeyenda(),StReveal()}));
+//# sourceMappingURL=leyenda.js.map

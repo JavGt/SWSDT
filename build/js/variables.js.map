@@ -1,0 +1,1 @@
+{"version":3,"sources":["variables.js"],"names":["actionBtn","document","querySelector","toggle_btn"],"mappings":"OAAO,MAAMA,UAAYC,SAASC,cAAc,sBACzC,MAAMC,WAAaF,SAASC,cAAc","file":"variables.js","sourcesContent":["export const actionBtn = document.querySelector(\".nav-btn-js\");\r\nexport const toggle_btn = document.querySelector(\".toggle-btn\");\r\n"]}
